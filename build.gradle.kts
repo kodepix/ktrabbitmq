@@ -24,6 +24,7 @@ dependencies {
     api(libs.kotlinx.coroutines.slf4j)
     api(libs.kotlin.logging)
     api(libs.kodepix.commons)
+    api(libs.rabbitmq.amqp.client)
 
     testImplementation(libs.bundles.testing)
 }
