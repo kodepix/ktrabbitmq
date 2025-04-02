@@ -1,0 +1,31 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 900
+tab_width = 4
+ij_continuation_indent_size = 4
+
+# noinspection EditorConfigKeyCorrectness
+[{*.kt,*.kts}]
+ktlint_code_style = intellij_idea
+ktlint_standard_no-wildcard-imports = disabled
+ktlint_standard_no-consecutive-blank-lines = disabled
+ktlint_standard_multiline-if-else = disabled
+ktlint_standard_no-empty-first-line-in-method-block = disabled
+ktlint_standard_trailing-comma-on-call-site = disabled
+ktlint_standard_trailing-comma-on-declaration-site = disabled
+ktlint_standard_function-naming = disabled
+ktlint_standard_function-signature = disabled
+ktlint_standard_discouraged-comment-location = disabled
+ij_kotlin_name_count_to_use_star_import = 1
+ij_kotlin_name_count_to_use_star_import_for_members = 1
+
+[{*.yaml,*.yml}]
+indent_size = 2
+tab_width = 2
+ij_continuation_indent_size = 2

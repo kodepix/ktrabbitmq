@@ -1,0 +1,12 @@
+.kotlin
+.idea/*
+!.idea/icon.svg
+!.idea/runConfigurations/
+
+*.iml
+desktop.ini
+.gradle
+.kotlintest
+build/
+out/
+*.bak
