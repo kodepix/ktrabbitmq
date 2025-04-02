@@ -1,4 +1,4 @@
-package io.github.kodepix
+package io.github.kodepix.rabbitmq
 
 import io.kotest.core.spec.style.*
 

@@ -11,7 +11,7 @@ plugins {
     signing
 }
 
-description = "Library template."
+description = "Additional functionality of RabbitMQ client."
 group = "io.github.kodepix"
 version = "1.0-SNAPSHOT"
 

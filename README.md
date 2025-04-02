@@ -1,10 +1,12 @@
 <img align="left" alt="logo" width="128" src=".idea/icon.svg">
 
-# &nbsp;&nbsp;&nbsp;Library template
+# &nbsp;&nbsp;&nbsp;Ktrabbitmq
 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Library template.
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additional functionality of [RabbitMQ Java Client](https://github.com/rabbitmq/rabbitmq-java-client).
 
 [![Kotlin](https://img.shields.io/badge/kotlin-2.1.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.kodepix/ktrabbitmq)](https://central.sonatype.com/artifact/io.github.kodepix/ktrabbitmq)
+![GitHub](https://img.shields.io/github/license/kodepix/ktrabbitmq)
 [![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/)
 
 ---
@@ -24,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.kodepix:lib-template:1.0")
+    implementation("io.github.kodepix:ktrabbitmq:1.0")
 }
 ```
 
